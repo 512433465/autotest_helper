@@ -34,3 +34,7 @@
 2，同步点击手机，选择Click（Reshot），或者Longpress（Reshot）菜单时，会同步点击模拟器，并重新截取屏幕。
 
 3，同步输入，选择input时，会在手机控件同步输入。
+
+
+测试交流论坛：https://testerhome.com/
+工具交流QQ群：610460807
