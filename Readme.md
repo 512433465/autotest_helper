@@ -1,4 +1,4 @@
-# Lvmama Ui Automator Viewer使用帮助
+# Lvmama Ui Automator Viewer使用帮助(请用夜神模拟器试用。目前真机好像有问题呢)
 
 ## 1，安装准备
 
