@@ -10,7 +10,7 @@
 
 3. 打开手机文件管理，到 /data/local/tmp/目录下，检查确保LvmamaXmlKit.jar是否复制到手机中
 
-   ![1524477949570](C:\Users\ZHANGJ~1\AppData\Local\Temp\1524477949570.png)
+   ![1524477949570](https://github.com/512433465/autotest_helper/blob/master/11111.jpg)
 
 4. 模拟器中安装ADBKeyBoard.apk并设置设置默认输入法为ADBKeyBoard，并关闭硬件物理键盘。
 
