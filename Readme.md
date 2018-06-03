@@ -27,7 +27,7 @@
 
 1.使用示例
 
-![1524479147962](C:\Users\ZHANGJ~1\AppData\Local\Temp\1524479147962.png)
+![1524479147962](https://github.com/512433465/autotest_helper/blob/master/33333.jpg)
 
 如上图，点击门票后，右击，弹出菜单，选择Click时，弹出ClickBy菜单，选择xpth 时，会生成driver.findElement("//android.widget.ImageView[@content-desc='门票']","xpath").click();
 
