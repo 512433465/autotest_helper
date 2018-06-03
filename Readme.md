@@ -14,7 +14,7 @@
 
 4. 模拟器中安装ADBKeyBoard.apk并设置设置默认输入法为ADBKeyBoard，并关闭硬件物理键盘。
 
-   ![1524478068333](C:\Users\ZHANGJ~1\AppData\Local\Temp\1524478068333.png)
+   ![1524478068333](https://github.com/512433465/autotest_helper/blob/master/22222.jpg)
 
    5.重命名自己电脑SDK目录的  \android-sdk-windows\tools\lib 下面的uiautomatorviewer.jar==》uiautomatorviewer.zip。复制共享目录\自动化\个人\autotest_helper\下面的uiautomatorviewer.jar到自己电脑SDK目录的  \android-sdk-windows\tools\lib 下
 
