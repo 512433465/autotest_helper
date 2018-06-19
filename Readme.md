@@ -1,4 +1,4 @@
-# Lvmama Ui Automator Viewer使用帮助(请用夜神模拟器。OPPO真机亲测可用)
+# Lvmama Ui Automator Viewer使用帮助(夜神模拟器，OPPO真机亲测可用，其他设备未做测试，欢迎尝试)
 
 ## 1，安装准备
 
