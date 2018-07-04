@@ -23,6 +23,8 @@
 - 模拟器中安装ADBKeyBoard.apk并设置设置默认输入法为ADBKeyBoard，并关闭硬件物理键盘（如图2）
 - 打开您的app，点击uiautomatorviewer.bat 开启生成代码之旅。
 
+## LvmamaXmlKit.jar一定要推送到手机里，截图，截取xml要用到这个jar
+
 图1：LvmamaXmlKit.jar推送成功与否检查示例
 
    ![1524477949570](https://github.com/512433465/autotest_helper/blob/master/11111.jpg)
