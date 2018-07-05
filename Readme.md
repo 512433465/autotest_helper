@@ -3,6 +3,9 @@
 #### 项目介绍
 二次开发 uiautomatorviewer 优化定位符生成，支持生成Java，Python自动化代码，修复自带工具画面有动态加载时截图失败问题，优化自带工具截图速度 ，实现类似录制脚本功能。兼容IOS安卓。
 
+#### 一点说明
+工具改造不易，且用且珍惜，觉得不不错的老铁，给个双击，Git上star 一下。有问题Issue反馈一下，大家一起让自动化更简单，谢谢！
+
 #### 软件架构
 本工具以安卓SDK自带uiautomatorviewer为源码基础，在此上进行深度二次开发。
 - 优化定位符Xpath生成，提取相对短的Xpath，解决自带工具Xpath太长不友好的问题
@@ -14,8 +17,8 @@
 
 #### 安装教程
 
-1. 本工具和SDK自带Jar相同无需安卓。前提是您Mac或者Windows系统中已经安装并且配置好了Java1.8环境
-2. Windows环境，复制该jar到您SDK安装目录uiautomatorviewer.jar所在的目录下(请先备份你原来的jar，一般目录在SDK的tools\lib下：\android-sdk-windows\tools\lib)
+1. 本工具和SDK自带的uiautomatorviewer.jar功效相同无需额外安装任何软件。前提是您Mac或者Windows系统中已经安装并且配置好了Java1.8环境
+2. Windows环境，复制该jar到您SDK安装目录uiautomatorviewer.jar所在的目录下(请先备份你原来的uiautomatorviewer.jar，一般目录在SDK的tools\lib下：\android-sdk-windows\tools\lib)
 3. Mac环境，复制该jar到任意目录即可
 4. 安卓自动化：
 - 复制LvmamaXmlKit.jar到本地D盘根目录下，打开命令行窗口执行命令：adb push D:\LvmamaXmlKit.jar /data/local/tmp/
@@ -23,7 +26,7 @@
 - 模拟器中安装ADBKeyBoard.apk并设置设置默认输入法为ADBKeyBoard，并关闭硬件物理键盘（如图2）
 - 打开您的app，点击uiautomatorviewer.bat 开启生成代码之旅。
 
-## LvmamaXmlKit.jar一定要推送到手机里，截图，截取xml要用到这个jar
+#### LvmamaXmlKit.jar一定要推送到手机里，截图，截取xml要用到这个jar，否则无法正常使用！
 
 图1：LvmamaXmlKit.jar推送成功与否检查示例
 
