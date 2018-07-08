@@ -39,7 +39,7 @@
 
 图2：硬件物理键盘关闭与否检查示例
 
-   ![1524478068333](https://github.com/512433465/autotest_helper/blob/master/22222.png)
+   ![1524478068333](https://github.com/512433465/autotest_helper/blob/master/22222.jpg)
 
 
 
