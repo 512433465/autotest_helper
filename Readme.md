@@ -14,24 +14,28 @@
 
 #### 安装教程
 
-1. 本工具和SDK自带Jar相同无需安卓。前提是您Mac或者Windows系统中已经安装并且配置好了Java1.8环境
+1. 本工具和SDK自带Jar功效相同，只是在此基础二次开发无需任何安装（前提是您Mac或者Windows系统中已经安装并且配置好了Java环境）
 2. Windows环境，复制该jar到您SDK安装目录uiautomatorviewer.jar所在的目录下(请先备份你原来的jar，一般目录在SDK的tools\lib下：\android-sdk-windows\tools\lib)
-3. Mac环境，复制该jar到任意目录即可
+3. Mac环境，复制该jar到任意目录即可，使用前请先确认appium inspector可以抓取元素，谢谢！
 4. 安卓自动化：
 - 复制LvmamaXmlKit.jar到本地D盘根目录下，打开命令行窗口执行命令：adb push D:\LvmamaXmlKit.jar /data/local/tmp/
 - 打开手机文件管理，到 /data/local/tmp/目录下，检查确保LvmamaXmlKit.jar是否复制到手机中（如图1）
 - 模拟器中安装ADBKeyBoard.apk并设置设置默认输入法为ADBKeyBoard，并关闭硬件物理键盘（如图2）
 - 打开您的app，点击uiautomatorviewer.bat 开启生成代码之旅。
 
-## LvmamaXmlKit.jar一定要推送到手机里，截图，截取xml要用到这个jar
+## LvmamaXmlKit.jar一定要推送到手机里，截图，截取xml要用到这个jar，这个jar不放到手机/data/local/tmp/里100%异常！！！！！！！
 
 图1：LvmamaXmlKit.jar推送成功与否检查示例
+模拟器：
 
+   ![1524477949570](https://github.com/512433465/autotest_helper/blob/master/11111.jpg)
+真机：
+命令行利用adb shell 查看，不会的自行百度。
    ![1524477949570](https://github.com/512433465/autotest_helper/blob/master/11111.jpg)
 
 图2：硬件物理键盘关闭与否检查示例
 
-   ![1524478068333](https://github.com/512433465/autotest_helper/blob/master/22222.jpg)
+   ![1524478068333](https://github.com/512433465/autotest_helper/blob/master/adbshell.png)
 
 
 
