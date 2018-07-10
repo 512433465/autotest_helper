@@ -18,6 +18,9 @@
 
 1. 本工具和SDK自带Jar功效相同，只是在此基础二次开发无需任何安装（前提是您Mac或者Windows系统中已经安装并且配置好了Java环境）
 2. Windows环境，复制该jar到您SDK安装目录uiautomatorviewer.jar所在的目录下(请先备份你原来的jar，一般目录在SDK的tools\lib下：\android-sdk-windows\tools\lib)
+- 备份方法特别说明：SDK目录下只有一个uiautomatorviewer.jar的，把该jar后缀改为.zip,即改为uiautomatorviewer.jar==>uiautomatorviewer.zip，下载一个我二次开发的jar。把下载的jar放到该目录下即可。
+- 有的同学SDK目录下有uiautomatorviewer.jar和uiautomatorviewer-26.0.0-dev.jar两个jar。把两个jar后缀都改为.zip即改为uiautomatorviewer.jar==>uiautomatorviewer.zip，uiautomatorviewer-26.0.0-dev.zip，先下载一个我二次开发的jar改为uiautomatorviewer-26.0.0-dev.jar，再下载一个我二次开发的jar。把两个jar放到该目录下即可。
+
 3. Mac环境，复制该jar到任意目录即可，使用前请先确认appium inspector可以抓取元素，谢谢！
 4. 安卓自动化：
 - 复制LvmamaXmlKit.jar到本地D盘根目录下，打开命令行窗口执行命令：adb push D:\LvmamaXmlKit.jar /data/local/tmp/
