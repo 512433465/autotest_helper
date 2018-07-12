@@ -3,7 +3,7 @@
 #### 项目介绍
 二次开发 uiautomatorviewer 优化定位符生成，支持生成Java，Python自动化代码，修复自带工具画面有动态加载时截图失败问题，优化自带工具截图速度 ，实现类似录制脚本功能。兼容IOS安卓。
 
-#### 觉得不不错的老铁，给个双击！Git上star 一下。有问题Issue反馈一下。或者进下面的群，QQ讨论交流！
+#### 觉得不错的老铁，给个双击！Git上star 一下。有问题Issue反馈一下。或者进下面的群，QQ讨论交流！
 
 #### 软件架构
 本工具以安卓SDK自带uiautomatorviewer为源码基础，在此上进行深度二次开发。
@@ -28,6 +28,8 @@
 - 打开手机文件管理，到 /data/local/tmp/目录下，检查确保LvmamaXmlKit.jar是否复制到手机中（如图1）
 - 模拟器中安装ADBKeyBoard.apk并设置设置默认输入法为ADBKeyBoard，并关闭硬件物理键盘（如图2）
 - 打开您的app，点击uiautomatorviewer.bat 开启生成代码之旅。
+
+- 特别提示，JDK最好用1.8的，1.7或者以下可能会有问题，抱歉
 
 ## LvmamaXmlKit.jar一定要推送到手机里，截图，截取xml要用到这个jar，这个jar不放到手机/data/local/tmp/里100%异常，请告别这个工具吧，谢谢！
 
